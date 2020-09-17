@@ -1,4 +1,3 @@
-import React from "react";
 import { StyleSheet } from "react-native";
 
 const SEND_MESSAGE_COLOR = "blue";
