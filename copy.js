@@ -4,11 +4,13 @@ import {
   Text,
   Image,
   View,
+  SafeAreaView,
+  FlatList,
   ScrollView,
   Alert,
   TouchableOpacity,
+  Button,
 } from "react-native";
-
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { Feather } from "@expo/vector-icons";
@@ -29,9 +31,21 @@ const imageArr = [
 ];
 const centerImgArr = Math.floor(imageArr.length / 2);
 
-const ButtonHandler = (params) => {
-  Alert.alert(params);
+const ButtonHandler = () => {
+  Alert.alert("Followed");
 };
+
+const SendMessageBtn = ({ onPress, title }) => (
+  <TouchableOpacity onPress={onPress} style={styles.msgBtn}>
+    <Text style={{ color: "white" }}>{title}</Text>
+  </TouchableOpacity>
+);
+
+const CustomButton = ({ onPress, title }) => (
+  <TouchableOpacity onPress={onPress} style={styles.followBtn}>
+    <Text style={styles.followText}>{title}</Text>
+  </TouchableOpacity>
+);
 
 const App = () => {
   return (
@@ -62,16 +76,14 @@ const App = () => {
           <Text style={styles.jobText}>Developer</Text>
 
           <View style={styles.contactBtn}>
-            <TouchableOpacity
-              style={styles.followBtn}
-              // onPress={ButtonHandler("Followed")}
-            >
+            {/* <TouchableOpacity style={styles.followBtn}>
               <Text style={styles.followText}>Follow</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.msgBtn}
-              onPress={ButtonHandler("Message fdsafsda")}
-            >
+            </TouchableOpacity> */}
+            <CustomButton
+              title="Follow"
+              onPress={ButtonHandler()}
+            ></CustomButton>
+            <TouchableOpacity style={styles.msgBtn}>
               <MaterialCommunityIcons name="send" size={18} color="white" />
             </TouchableOpacity>
             {/* <SendMessageBtn title="" onPress={ButtonHandler}>
