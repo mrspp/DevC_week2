@@ -1,0 +1,1 @@
+"serviceWorker"in navigator&&window.addEventListener("load",(function(){navigator.serviceWorker.register("/DevC_week2/expo-service-worker.js",{scope:"/DevC_week2/"}).then((function(e){})).catch((function(e){console.info("Failed to register service-worker",e)}))}));
