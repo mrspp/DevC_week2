@@ -2,7 +2,7 @@
  * @ Author: caophuong1018
  * @ Create Time: 2020-09-18 15:53:28
  * @ Modified by: caophuong1018
- * @ Modified time: 2020-09-20 17:10:26
+ * @ Modified time: 2020-09-20 17:24:20
  * @ Description: DevC week 2 assignment: Let's build a beautiful profile page application using React Native & Expo
  */
 
@@ -104,7 +104,7 @@ const App = () => {
               keyExtractor={(item) => item.id}
               numColumns={2}
               renderItem={SingleImage}
-              ListEmptyComponent={<h2>Loading images...</h2>}
+              ListEmptyComponent={<Text>Loading images...</Text>}
             />
           </View>
         </View>
