@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/DevC_week2/static/js/app.d33e23fe.chunk.js",
-    "app.js.map": "/DevC_week2/static/js/app.d33e23fe.chunk.js.map",
+    "app.js": "/DevC_week2/static/js/app.94b84a8a.chunk.js",
+    "app.js.map": "/DevC_week2/static/js/app.94b84a8a.chunk.js.map",
     "runtime~app.js": "/DevC_week2/static/js/runtime~app.cb33942a.js",
     "runtime~app.js.map": "/DevC_week2/static/js/runtime~app.cb33942a.js.map",
-    "static/js/2.e9078d07.chunk.js": "/DevC_week2/static/js/2.e9078d07.chunk.js",
-    "static/js/2.e9078d07.chunk.js.map": "/DevC_week2/static/js/2.e9078d07.chunk.js.map",
+    "static/js/2.a3a14736.chunk.js": "/DevC_week2/static/js/2.a3a14736.chunk.js",
+    "static/js/2.a3a14736.chunk.js.map": "/DevC_week2/static/js/2.a3a14736.chunk.js.map",
     "fonts/AntDesign.ttf": "/DevC_week2/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/DevC_week2/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/DevC_week2/./fonts/Feather.ttf",
@@ -24,22 +24,12 @@
     "index.html": "/DevC_week2/index.html",
     "manifest.json": "/DevC_week2/manifest.json",
     "serve.json": "/DevC_week2/serve.json",
-    "static/js/2.e9078d07.chunk.js.LICENSE.txt": "/DevC_week2/static/js/2.e9078d07.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpg": "/DevC_week2/static/media/avatar.807be110.jpg",
-    "static/media/screen-0.jpg": "/DevC_week2/static/media/screen-0.f1f96f75.jpg",
-    "static/media/screen-1.jpg": "/DevC_week2/static/media/screen-1.bb338f07.jpg",
-    "static/media/screen-2.jpg": "/DevC_week2/static/media/screen-2.46db7c44.jpg",
-    "static/media/screen-3.jpg": "/DevC_week2/static/media/screen-3.c59f5e93.jpg",
-    "static/media/screen-4.jpg": "/DevC_week2/static/media/screen-4.8039ebde.jpg",
-    "static/media/screen-5.jpg": "/DevC_week2/static/media/screen-5.18f7febe.jpg",
-    "static/media/screen-6.jpg": "/DevC_week2/static/media/screen-6.67e8a51f.jpg",
-    "static/media/screen-7.jpg": "/DevC_week2/static/media/screen-7.37d3f270.jpg",
-    "static/media/screen-8.jpg": "/DevC_week2/static/media/screen-8.d1d7db93.jpg",
-    "static/media/screen-9.jpg": "/DevC_week2/static/media/screen-9.02017311.jpg"
+    "static/js/2.a3a14736.chunk.js.LICENSE.txt": "/DevC_week2/static/js/2.a3a14736.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/DevC_week2/static/media/avatar.807be110.jpg"
   },
   "entrypoints": [
     "static/js/runtime~app.cb33942a.js",
-    "static/js/2.e9078d07.chunk.js",
-    "static/js/app.d33e23fe.chunk.js"
+    "static/js/2.a3a14736.chunk.js",
+    "static/js/app.94b84a8a.chunk.js"
   ]
 }
