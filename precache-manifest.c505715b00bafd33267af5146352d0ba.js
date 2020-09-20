@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "e554d66bf92ef5b6efc6",
-    "url": "/DevC_week2/static/js/app.343c185e.chunk.js"
+    "revision": "a85c2bdc50cb2a767aff",
+    "url": "/DevC_week2/static/js/app.0f6e2be8.chunk.js"
   },
   {
     "revision": "45d23c0304f3cb469cd9",
     "url": "/DevC_week2/static/js/runtime~app.cb33942a.js"
   },
   {
-    "revision": "7dc6b4647e674fec2581",
-    "url": "/DevC_week2/static/js/2.95549e44.chunk.js"
+    "revision": "e48b4a92fb9747970835",
+    "url": "/DevC_week2/static/js/2.3f74f84f.chunk.js"
   },
   {
     "revision": "3c851d60ad5ef3f2fe43ebd263490d78",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/DevC_week2/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "947cc253d372b280a8f9df51f5e5f89e",
+    "revision": "3e3fb016910fe9b173a665f5c9ade26b",
     "url": "/DevC_week2/index.html"
   },
   {
@@ -81,7 +81,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "a990a8c98c379b1c14de33443329d80a",
-    "url": "/DevC_week2/static/js/2.95549e44.chunk.js.LICENSE.txt"
+    "url": "/DevC_week2/static/js/2.3f74f84f.chunk.js.LICENSE.txt"
   },
   {
     "revision": "d324ddc823eca6c86688f62576c81e76",
