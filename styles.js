@@ -1,8 +1,8 @@
 import { StyleSheet } from "react-native";
 
-const SEND_MESSAGE_COLOR = "blue";
+const SEND_MESSAGE_COLOR = "#56d8ff";
 
-const styles = StyleSheet.create({
+let styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "white",
@@ -143,3 +143,5 @@ const styles = StyleSheet.create({
     flexDirection: "column",
   },
 });
+
+// export { styles };
