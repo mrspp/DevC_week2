@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/DevC_week2/static/js/app.94b84a8a.chunk.js",
-    "app.js.map": "/DevC_week2/static/js/app.94b84a8a.chunk.js.map",
+    "app.js": "/DevC_week2/static/js/app.343c185e.chunk.js",
+    "app.js.map": "/DevC_week2/static/js/app.343c185e.chunk.js.map",
     "runtime~app.js": "/DevC_week2/static/js/runtime~app.cb33942a.js",
     "runtime~app.js.map": "/DevC_week2/static/js/runtime~app.cb33942a.js.map",
-    "static/js/2.a3a14736.chunk.js": "/DevC_week2/static/js/2.a3a14736.chunk.js",
-    "static/js/2.a3a14736.chunk.js.map": "/DevC_week2/static/js/2.a3a14736.chunk.js.map",
+    "static/js/2.95549e44.chunk.js": "/DevC_week2/static/js/2.95549e44.chunk.js",
+    "static/js/2.95549e44.chunk.js.map": "/DevC_week2/static/js/2.95549e44.chunk.js.map",
     "fonts/AntDesign.ttf": "/DevC_week2/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/DevC_week2/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/DevC_week2/./fonts/Feather.ttf",
@@ -24,12 +24,12 @@
     "index.html": "/DevC_week2/index.html",
     "manifest.json": "/DevC_week2/manifest.json",
     "serve.json": "/DevC_week2/serve.json",
-    "static/js/2.a3a14736.chunk.js.LICENSE.txt": "/DevC_week2/static/js/2.a3a14736.chunk.js.LICENSE.txt",
+    "static/js/2.95549e44.chunk.js.LICENSE.txt": "/DevC_week2/static/js/2.95549e44.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/DevC_week2/static/media/avatar.807be110.jpg"
   },
   "entrypoints": [
     "static/js/runtime~app.cb33942a.js",
-    "static/js/2.a3a14736.chunk.js",
-    "static/js/app.94b84a8a.chunk.js"
+    "static/js/2.95549e44.chunk.js",
+    "static/js/app.343c185e.chunk.js"
   ]
 }
