@@ -1,145 +1,136 @@
 import { StyleSheet } from "react-native";
 
-const SEND_MESSAGE_COLOR = "blue";
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "white",
+    margin: 10,
   },
   header: {
     flex: 0.1,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginHorizontal: 25,
-    marginTop: 10,
   },
-  headerBtn: {
-    color: "black",
+  headerIcon: {
+    flexDirection: "column",
   },
-  infoGroup: {
-    flex: 0.25,
+  accInfo: {
+    flex: 0.15,
     flexDirection: "row",
   },
-  statusGroup: {
-    flex: 0.2,
-    flexDirection: "row",
+  avatar: {
+    flex: 4,
+    justifyContent: "center",
+    alignItems: "center",
   },
-  footer: {
+  avatarWrapper: {
+    borderRadius: 60,
+    height: 100,
+    width: 100,
+  },
+  accText: {
+    flex: 6,
+    flexDirection: "column",
+    justifyContent: "center",
+    paddingLeft: 10,
+  },
+  accName: {
+    fontWeight: "bold",
+    color: "#212d4c",
+    fontSize: 20,
+  },
+  accJob: {
+    fontSize: 16,
+    fontWeight: "400",
+    color: "#7883a9",
+  },
+  accAction: {
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    paddingTop: 15,
+  },
+  follow: {
+    backgroundColor: "#3b73ff",
+    width: 110,
+    height: 30,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  followText: {
+    color: "white",
+    fontSize: 14,
+  },
+  sendMessage: {
+    marginLeft: 20,
+    backgroundColor: "#56d8ff",
+    height: 30,
+    width: 55,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  accStatus: {
     flex: 0.15,
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
   },
-  imageGroup: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  avatar: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  avatarImg: {
-    flex: 0.4,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  infoText: {
-    flex: 0.6,
+  statusOneFeed: {
     flexDirection: "column",
     justifyContent: "center",
-  },
-  followBtn: {
-    backgroundColor: "#3b73ff",
-    width: 110,
-    height: 25,
-    justifyContent: "center",
     alignItems: "center",
-    borderRadius: 20,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
   },
-  msgBtn: {
-    backgroundColor: SEND_MESSAGE_COLOR,
-    height: 25,
-    width: 60,
-    marginLeft: 10,
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 20,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-  },
-  contactBtn: {
-    flexDirection: "row",
-    marginTop: 15,
-  },
-  nameText: {
-    fontWeight: "bold",
-    color: "#212d4c",
-    fontSize: 20,
-  },
-  jobText: {
+  statusText: {
+    color: "#7883a9",
+    fontWeight: "200",
     fontSize: 16,
-    fontWeight: "400",
-    color: "rgb(148,161,180)",
-  },
-  followText: {
-    fontSize: 14,
-    color: "white",
-  },
-  photoCount: {
-    flexDirection: "column",
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  followerCount: {
-    flexDirection: "column",
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  followingCount: {
-    flexDirection: "column",
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
   },
   statusCount: {
     color: "#2a3653",
     fontWeight: "bold",
-    fontSize: 22,
+    fontSize: 20,
   },
-  statusText: {
-    color: "rgb(148,161,180)",
-    fontWeight: "200",
-    fontSize: 14,
+  accImages: {
+    flex: 0.5,
   },
-  imageWrapper: {
-    borderRadius: 10,
-    height: 170,
-    width: 170,
-    margin: 5,
-  },
-  imageColumn: {
+  safeViewColumn: {
     flexDirection: "column",
   },
+  safeViewFlatlist: {},
+  column: {
+    flex: 1,
+    flexDirection: "column",
+  },
+  feedImage: {
+    resizeMode: "contain", //optional
+    minHeight: 150,
+    margin: 5,
+  },
+  footer: {
+    flex: 0.1,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+  },
 });
+
+export default styles;
